@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+    <block x="323" type="start_tilt" id="B6DF44E3-41D5-449E-9CBC-3E7B1B7FB768" y="51">
+        <field name="DIR">left</field>
+        <next>
+            <block type="turtle_turn" id="E71EE079-BBF6-4977-92BA-6C8D969F984C">
+                <value name="VALUE">
+                    <shadow type="angle_picker" id="95375B57-9A9E-4199-BBEB-306BF06087B2">
+                        <field name="NUM">90</field>
+                    </shadow>
+                </value>
+                <field name="DIR">left</field>
+                <next>
+                    <block type="turtle_color" id="020379B0-F717-4C2C-AD3D-19A16237AFE6">
+                        <value name="COLOUR">
+                            <shadow type="color_picker" id="A9F8846A-1837-4A04-AFB5-DAE96BD35B90">
+                                <field name="COLOUR">#ff0000</field>
+                            </shadow>
+                        </value>
+                    </block>
+                </next>
+            </block>
+        </next>
+    </block>
+    <block x="39" type="start" id="59CB49AE-C707-4706-B7D3-91007CC1AAED" y="43">
+        <next>
+            <block type="controls_repeat_ext" id="D65820FD-0460-46F1-B179-BDCD96D189D5">
+                <value name="TIMES">
+                    <shadow type="math_number" id="8EC7A176-4731-4A0E-A883-4A4D1B1AECDC">
+                        <field name="NUM">3</field>
+                    </shadow>
+                </value>
+                <statement name="DO">
+                    <block type="turtle_move" id="522B9AEF-DDB5-4C98-A39C-4F387C3E33BB">
+                        <value name="VALUE">
+                            <shadow type="math_number" id="AA450C3B-ED8F-4A4B-B488-073B09142A05">
+                                <field name="NUM">10</field>
+                            </shadow>
+                        </value>
+                        <field name="DIR">forward</field>
+                    </block>
+                </statement>
+            </block>
+        </next>
+    </block>
+</xml>
